@@ -40,11 +40,11 @@ html {
 
 /* Tombol Lihat Makanan */
 .btn-primary {
-    background-color: #ff6600;
-    border: none;
+    background-color: #ff6600 !important;
+    border: none !important;
 }
 .btn-primary:hover {
-    background-color: #cc5200;
+    background-color: #cc5200 !important;
 }
 
 /* Styling Kartu Produk */
