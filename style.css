@@ -66,6 +66,10 @@ html {
     object-fit: cover;
 }
 
+iframe {
+    width: 100%;
+}
+
 /* Membuat produk dalam bentuk grid yang responsif */
 @media (min-width: 768px) {
     .produk-container {
