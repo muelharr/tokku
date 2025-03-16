@@ -16,7 +16,7 @@ html {
 
 /* Styling Carousel */
 .carousel-item img {
-    height: 550px;
+    height: 650px;
     object-fit: cover;
 }
 
