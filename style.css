@@ -1,3 +1,16 @@
+body {
+    font-family: 'inter', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+.Toko {
+    width: auto;
+    height: 200px;
+    background-color: #184eb4;
+}
+
 footer {
     margin-bottom: 0;
     margin-left: 0;
