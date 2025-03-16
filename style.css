@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Styling Navbar */
 .navbar {
     background-color: #8b0000 !important;
@@ -12,14 +16,16 @@
 
 /* Styling Carousel */
 .carousel-item img {
-    height: 500px;
+    height: 550px;
     object-fit: cover;
 }
 
 /* Section Selamat Datang */
 .welcome-section {
+    margin-bottom: 10px;
     text-align: center;
     padding: 60px 20px;
+    background-color: #FA8072;
 }
 .welcome-section h1 {
     font-size: 45px;
