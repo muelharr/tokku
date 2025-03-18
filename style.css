@@ -47,6 +47,11 @@ html {
     background-color: #cc5200 !important;
 }
 
+.sosial-icon {
+    align-items: center;
+    color: black;
+}
+
 /* Styling Kartu Produk */
 #produk {
     padding: 20px;
