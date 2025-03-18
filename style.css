@@ -49,9 +49,12 @@ html {
 
 .sosial-icon {
     display: flex;
-    align-items: center !important;
-    color: black !important;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
+
+
 
 /* Styling Kartu Produk */
 #produk {
