@@ -51,17 +51,20 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
 }
 
 .sosial-icon a {
-    font-size: 24px;
+    font-size: 70px;
     color: black;
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
 }
 
-.socia
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ff6600;
+}
 
 /* Styling Kartu Produk */
 #produk {
