@@ -32,12 +32,14 @@
 }
 
 .carousel-item {
-    
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-item img {
     width: 100%;
-    height: auto;
+    height: 60vh;
+    min-height: 450px;
     object-fit: cover;
     border-radius: 15px;
 }
