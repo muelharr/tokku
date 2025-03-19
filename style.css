@@ -140,6 +140,17 @@ iframe {
         align-items:center ;
         gap: 20px;
     }
+
+    .carousel {
+        width: 95%;
+    }
+
+    .carousel-item img {
+        height: 350px;
+    }
+
+    .carousel-caption {
+        padding: 8px;
+        font-size: 14px;
+    }
 }
-
-
