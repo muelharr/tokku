@@ -16,8 +16,11 @@ html {
 
 /* Styling Carousel */
 .carousel {
+    margin: 0 auto;
+    display: flex;
     width: 800px;
     align-items: center;
+    justify-content: center;
 }
 
 .carousel-item img {
