@@ -11,26 +11,34 @@
 }
 
 /* Styling Carousel */
-.carousel {
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
+.carousel-container {
     display: flex;
-    width: 843px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.carousel {
+    width: 80%;
+    max-width: 1000px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);    
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .carousel-item img {
-    height: 550px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 15px;
 }
 
+/* Overlay efek untuk teks di atas gambar */
 .carousel-caption {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    color: white;
 }
 
 /* Section Selamat Datang */
@@ -136,5 +144,18 @@ iframe {
         flex-direction: column;
         align-items:center ;
         gap: 20px;
+    }
+
+    .carousel {
+        width: 95%;
+    }
+
+    .carousel-item img {
+        height: 350px;
+    }
+
+    .carousel-caption {
+        padding: 8px;
+        font-size: 14px;
     }
 }
