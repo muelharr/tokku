@@ -159,3 +159,26 @@ iframe {
         font-size: 14px;
     }
 }
+
+@media (max-width: 480px) {
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .carousel-caption {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+}
