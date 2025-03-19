@@ -142,11 +142,11 @@ iframe {
     }
 
     .carousel {
-        width: 95%;
+        width: 100%;
     }
 
     .carousel-item img {
-        height: 350px;
+        height: 450px;
     }
 
     .carousel-caption {
