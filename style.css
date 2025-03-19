@@ -17,7 +17,6 @@ html {
 /* Styling Carousel */
 .carousel-item img {
     height: 650px;
-    object-fit: cover;
 }
 
 /* Section Selamat Datang */
