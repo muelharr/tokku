@@ -15,6 +15,11 @@ html {
 }
 
 /* Styling Carousel */
+.carousel {
+    width: 800px;
+    align-items: center;
+}
+
 .carousel-item img {
     height: 650px;
 }
