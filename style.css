@@ -16,13 +16,10 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 80%;
+    width: 843px;
     border-radius: 15px;
-    overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);    
 }
-
-
 
 .carousel-item img {
     height: 550px;
@@ -139,18 +136,5 @@ iframe {
         flex-direction: column;
         align-items:center ;
         gap: 20px;
-    }
-
-    .carousel {
-        width: 100%;
-    }
-
-    .carousel-item img {
-        height: 450px;
-    }
-
-    .carousel-caption {
-        padding: 8px;
-        font-size: 14px;
     }
 }
